@@ -1,6 +1,6 @@
 {
   "homepage": "https://scripter-anatoliy.github.io/todos",
-  "name": "my-todo-app",
+  "name": "todos",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
