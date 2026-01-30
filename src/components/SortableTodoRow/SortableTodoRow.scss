@@ -1,0 +1,47 @@
+.sortable-todo-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  list-style: none;
+  margin-bottom: 12px;
+  padding: var(--padding-block);
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background: var(--color-bg);
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &_dragging {
+    opacity: 0.5;
+    z-index: 1;
+  }
+}
+
+.sortable-todo-row__handle {
+  display: flex;
+  align-items: center;
+  padding: 4px;
+  cursor: grab;
+  color: var(--color-text-muted);
+  flex-shrink: 0;
+  touch-action: none;
+
+  &:active {
+    cursor: grabbing;
+  }
+
+  &:hover {
+    color: var(--color-text);
+  }
+}
+
+.sortable-todo-row .todo-item {
+  flex: 1;
+  min-width: 0;
+  border-bottom: none;
+  padding: 0;
+}

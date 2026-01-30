@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+.App *,
+.App *::before,
+.App *::after {
+  box-sizing: inherit;
+}
+
+.App h1 {
+  color: var(--color-text);
+  font-size: var(--font-size-title);
+  font-weight: var(--font-weight-normal);
+  margin: 0 0 24px;
+}
+
+.App__hint {
+  margin: 8px 0 16px;
+  font-size: var(--font-size-xs);
+  color: var(--color-text-muted);
+}
+
+.App__hint-icon {
+  display: inline-flex;
+  align-items: center;
+  vertical-align: middle;
+  color: var(--color-text-muted);
+}

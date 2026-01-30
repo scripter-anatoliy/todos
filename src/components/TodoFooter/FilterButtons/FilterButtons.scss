@@ -1,0 +1,9 @@
+.filters-container {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.filters-container__btn {
+  min-width: 90px;
+}
